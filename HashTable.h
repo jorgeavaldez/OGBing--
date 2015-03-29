@@ -1,4 +1,6 @@
-#pragma once
+#ifndef HashTable_H
+#define HashTable_H
+
 class HashTable
 {
 public:
@@ -6,3 +8,4 @@ public:
 	~HashTable();
 };
 
+#endif

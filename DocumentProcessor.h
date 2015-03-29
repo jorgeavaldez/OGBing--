@@ -1,4 +1,6 @@
-#pragma once
+#ifndef DocumentProcessor_H
+#define DocumentProcessor_H
+
 class DocumentProcessor
 {
 public:
@@ -6,3 +8,4 @@ public:
 	~DocumentProcessor();
 };
 
+#endif

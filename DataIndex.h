@@ -1,4 +1,6 @@
-#pragma once
+#ifndef DataIndex_H
+#define DataIndex_H
+
 class DataIndex
 {
 public:
@@ -6,3 +8,4 @@ public:
 	~DataIndex();
 };
 
+#endif

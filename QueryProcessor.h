@@ -1,4 +1,6 @@
-#pragma once
+#ifndef QueryProcessor_H
+#define QueryProcessor_H
+
 class QueryProcessor
 {
 public:
@@ -6,3 +8,4 @@ public:
 	~QueryProcessor();
 };
 
+#endif

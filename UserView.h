@@ -1,4 +1,6 @@
-#pragma once
+#ifndef UserView_H
+#define UserView_H
+
 class UserView
 {
 public:
@@ -6,3 +8,4 @@ public:
 	~UserView();
 };
 
+#endif

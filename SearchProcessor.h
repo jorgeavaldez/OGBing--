@@ -1,4 +1,6 @@
-#pragma once
+#ifndef SearchProcessor_H
+#define SearchProcessor_H
+
 class SearchProcessor
 {
 public:
@@ -6,3 +8,4 @@ public:
 	~SearchProcessor();
 };
 
+#endif
