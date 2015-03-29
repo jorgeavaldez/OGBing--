@@ -76,11 +76,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AVLTree.h" />
+    <ClInclude Include="Collection.h" />
+    <ClInclude Include="DataIndex.h" />
+    <ClInclude Include="DocumentProcessor.h" />
+    <ClInclude Include="FileReader.h" />
+    <ClInclude Include="HashTable.h" />
+    <ClInclude Include="JString.h" />
     <ClInclude Include="Parser.h" />
+    <ClInclude Include="QueryProcessor.h" />
+    <ClInclude Include="SearchProcessor.h" />
+    <ClInclude Include="UserView.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AVLTree.cpp" />
+    <ClCompile Include="Collection.cpp" />
+    <ClCompile Include="DataIndex.cpp" />
+    <ClCompile Include="DocumentProcessor.cpp" />
+    <ClCompile Include="FileReader.cpp" />
+    <ClCompile Include="HashTable.cpp" />
+    <ClCompile Include="JString.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Parser.cpp" />
+    <ClCompile Include="QueryProcessor.cpp" />
+    <ClCompile Include="SearchProcessor.cpp" />
+    <ClCompile Include="UserView.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
